@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <title>AF Video</title>
+    <!--Datepicker-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
+    <script src="main.js"></script>
+
+
+</head>
+
+<body>
+ 
+    <div class="container home-container">
+        <div class="row">
+            <div class="col-12 home">
+                <!--navbar-expand-sm hides navbar on small screens-->                
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    
+                    <a href="#" class="navbar-left"><img id="logo"src="pictures/logo+text-white.png"></a>
+                    <!--button to show menu after navbar collapses-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav ml-auto"> <!-- ml-auto keeps navbar on right side-->
+                            <li class="navbar-item">
+                                <a href="#portfolio-container" class="navbar-link">Portfolio</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#about-container" class="navbar-link">About</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#get-in-touch-container" class="navbar-link">Get in Touch</a>  
+                            </li> 
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container portfolio-container" id="portfolio-container">
+        <div class="row">
+            <div class="col-12 text-center title">
+                Portfolio
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 j-t">
+                <!--Button in middle to start modal-->
+                <div class="middle">
+                    <button type="button" class="btn text-middle" data-toggle="modal" data-target="#j-t-video">Terka & Jakub</button>
+                </div>
+            </div>
+            <div class="col-md-4 j-m">
+                <div class="middle">
+                    <!--Button in middle to start modal-->
+                    <button type="button" class="btn text-middle" data-toggle="modal" data-target="#j-m-video">Míša & Jakub</button>
+                </div>
+            </div>
+            <div class="col-md-4 other">
+                <div class="middle">
+                    <!--Button in middle to start modal-->
+                    <button type="button" class="btn text-middle">Coming soon</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modals-->
+    <div class="modal fade" id="j-t-video">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--Button to close modal-->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xY2uUyFyNh4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="j-m-video">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--Button to close modal-->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://player.vimeo.com/video/287286318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container about-container" id="about-container">
+        <div class="row">
+            <div class="col text-center title">
+                About
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 align-self-center p-sm-5 p-3">
+                Bacon ipsum dolor amet shank beef ribs picanha beef, hamburger jerky leberkas porchetta. 
+                Ribeye jerky andouille, prosciutto hamburger tail turkey pastrami capicola. Kielbasa jowl tongue 
+                ground round. Andouille tongue ribeye shankle t-bone chuck beef boudin sausage fatback bacon short 
+                ribs alcatra venison tail. Frankfurter shankle filet mignon tongue. Tenderloin ham hock flank pork 
+                loin sirloin ball tip pancetta meatloaf turkey, tongue sausage ribeye prosciutto pork.
+            </div>
+            <div class="col-md-4 my-face">
+                <!-- <img src="pictures/Artur.jpg" class="pull-left img-responsive" alt="Picture of me">
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container get-in-touch-container" id="get-in-touch-container">
+        <div class="row-12">
+            <div class="col text-center title">
+                Get in Touch
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                Artur Ferfecki
+                <br>
+                <br>
+                Tel: +420 776 349 842
+                <br>
+                <br>
+                Email: artureczek_5@live.com
+                <br>
+                <br>
+                <img class="social-logo" src="pictures/facebook.png">
+                
+                <!-- WhatsHelp.io widget -->
+                <script id="messenger-link" type="text/javascript">
+                    (function () {
+                        var options = {
+                            facebook: "463355930821261", // Facebook page ID
+                            call_to_action: "Message us", // Call to action
+                            position: "right", // Position may be 'right' or 'left'
+                        };
+                        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+                        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                        s.onclick = function () { WhWidgetSendButton.init(host, proto, options); };
+                        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                    })();
+                </script>
+                <!-- /WhatsHelp.io widget -->
+                <img class="social-logo" src="pictures/youtube-logo.png">
+                <img class="social-logo" src="pictures/vimeo-logo.png">
+                
+            </div>
+            <div class="col-sm">
+                <form method="post" action="send_form.php">
+                    <div class="form-group">
+                        <label for="input-name">Full name:</label>
+                        <input type="text" class="form-control" id="input-name" name="full_name" placeholder="Name Surname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-email">Email address:</label>
+                        <input type="email" class="form-control" id="input-email" name="email" placeholder="email@domain.xy" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-date">Wedding date:</label>
+                        <input type="text" class="form-control" id="input-date" name="date" placeholder="dd/mm/yyy" required>
+                    </div>           
+                    <div class="form-group">
+                        <label for="input-location">Location:</label>
+                        <input type="text" class="form-control" id="input-location" name="location" placeholder="Town, restaurant">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script> 
+    
+</body>         
+    
