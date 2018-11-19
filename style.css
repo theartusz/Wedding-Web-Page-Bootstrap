@@ -30,7 +30,7 @@ body {
 
 .navbar {
     background: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-right: 0;
     position: static;
     z-index: 1;
@@ -43,6 +43,7 @@ body {
 .navbar a {
     color: black;
 }
+
 
 #logo {
     max-width: 200px;
