@@ -166,3 +166,7 @@ body {
     z-index: 0;
     max-width: 100%;
 }
+
+.logo_block {
+    padding-left: 48px;
+}
